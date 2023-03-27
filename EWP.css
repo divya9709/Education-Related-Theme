@@ -1,0 +1,865 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body .main {
+    background: rgba(0, 0, 0, 0.7) url("Education01.png");
+    /* background-size:cover; */
+    /* background-attachment:fixed; */
+    background-blend-mode: darken;
+    height: auto;
+    width: 1365px;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+.headU {
+    height: 30px;
+    width: 1339px;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+.headUL {
+    height: 30px;
+    width: 50%;
+    color: white;
+    font-family: cursive;
+    /* padding-top: 5px;
+   padding-left: 60px; */
+    float: left;
+    margin-left: 30px;
+    
+}
+
+span {
+    color: yellow;
+}
+
+.headUR {
+    height: 30px;
+    width: 15%;
+    color: white;
+    float: right;
+ 
+    /* background-color: black */
+}
+
+.headUR img {
+    height: 23px;
+    /* padding-top: 7px; */
+    /* margin-left: 12px; */
+    width: 30px;
+    padding: 3px;
+    margin: 1px;
+
+
+}
+
+.headL {
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+
+    background: rgba(255, 255, 255, 0.2);
+    /* clear:both;  */
+    /* DOUBT- /* (isse kya hua samjh nahi aaya but issue resolve hogaya ,  */
+    /* problem- float left karne se headerm left vala right mein chala jaraha tha ) */
+    
+}
+
+/* .headLL
+
+
+{ height: 80px;
+    width: 400px;
+
+    float: left;
+   } */
+
+.headLL {
+    height: auto;
+    width: 300px;
+    margin-left: 130px;
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+    float: left;
+    /* padding-top: 15px;  */
+
+    padding-bottom: 20px;
+}
+
+
+
+
+.headLC {
+    height: 80px;
+    width: 80px;
+    float: left;
+
+}
+
+.headLR {
+    height: 40px;
+    width: 820px;
+    float: right;
+    margin-top: 10px;
+
+
+
+}
+
+ul {
+    list-style: none;
+    /* float: left; */
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    /* margin-block: 27px 128px; */
+    /* - isse kya hota hai? */
+    /* margin: 30px 128px; */
+    /* width: 100%; */
+}
+
+ul li {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    /*--Doubt isse kya hoga */
+    font-size: 18px;
+    text-align: center;
+    /*--Doubt isse kya hoga yaha*/
+
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    /*--Doubt isse kya hoga */
+    /* height: 80px;
+    width: 20px ;  */
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul li ul li {
+    width: 100px;
+    text-align: left;
+}
+
+
+ul li:hover {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+
+}
+
+ul li:hover ul {
+    display: inline;
+    position: absolute;
+
+}
+
+.midL {
+    height: 300px;
+    font-size: 13px;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 120px;
+    font-family: cursive;
+    color: white;
+
+}
+
+h4 {
+
+    font-size: 15px;
+}
+
+span1 {
+    color: rgb(0, 255, 242);
+}
+
+.btn {
+    background-color: rgb(153, 41, 37);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    /* font-size: 15px;  */
+    padding: 11px 25px 11px 20px;
+    margin-top: 10px;
+
+    /*join us now ka size kam kese hoga */
+}
+
+.btn a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+.black {
+    height: 1250px;
+    width: 1365px;
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, 1);
+    background-image: url(edulogo02.jpg);
+    box-sizing: border-box;
+    /* background-color: black; */
+    background-size: 50px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    background-color: rgb(153, 41, 37);
+    /* border: 10px solid rgb(153, 41, 37); */
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: -100px;
+    width: 300px;
+    height: 230px;
+    border: none;
+    float: left;
+    /* margin-left: 130px; */
+    /* position: relative; */
+    /* margin-bottom: 600px; */
+    color: white;
+    margin-left: 8%;
+    /* margin-top:-100px; */
+    /* z-index: -100px; */
+
+
+
+}
+
+img {
+
+    width: 137px;
+    margin: -38px;
+    margin-left: 60px;
+    height: 145px;
+    margin-top: -33px;
+    padding-top: 10px;
+
+}
+
+h3 {
+    font-family: cursive;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+
+
+}
+
+#First {
+    font-family: cursive;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+
+
+
+}
+
+#Second {
+    font-family: cursive;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+}
+
+#Third {
+    font-family: cursive;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+
+}
+
+
+.meeting {
+
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+
+    clear: both;
+    margin-left: 580px;
+    margin-top: 90px;
+    /* (jab extra div use kiabefore upcoming meeting then this margin works why?)
+*/
+} 
+
+hr {
+
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.box {
+    height: 370px;
+    width: 370px;
+    border: 2px solid white;
+    border-radius: 20px;
+    /* padding: 0px; */
+    background-color: white;
+    /* transition: all 1s ease-in-out; */
+
+}
+
+.box:hover {
+    height: 300px;
+    width: 300px;
+}
+
+#box1 {
+    background-image: url(education08.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    margin: 41px;
+
+}
+
+#box2 {
+    background-size: contain;
+    background-image: url(education06.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 10px;
+    margin-left: 547px;
+    margin-top: 41px;
+}
+
+#box3 {
+    background-size: contain;
+    background-image: url(education02.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    margin: 41px;
+    margin-top: 18px;
+
+
+}
+
+.price {
+    height: 25px;
+    width: 60px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 14px;
+    margin-left: 15px;
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+#box4 {
+    background-size: contain;
+    background-image: url(education07.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 440px;
+    margin-top: 18px;
+
+}
+
+/* .img2{
+
+height: 200px;
+width: 320px;
+margin: 0px;
+border-radius: 10px;
+} */
+
+.boxh {
+    color: black;
+    margin-top: 220px;
+    margin-left: -70px;
+
+}
+
+/* .container1
+{
+    position: absolute;
+    right: 4px;
+    margin: 41px;
+    padding: 10px;
+}
+
+.container2
+{
+
+} */
+.box5 {
+
+    height: 470px;
+    width: 370px;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* padding: 0px; */
+    background-color: white;
+    margin-top: -369px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.box5p {
+    color: black;
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.hr2 {
+    width: 300px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 35px;
+
+}
+
+.p2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.btn2 {
+    background-color: rgb(153, 41, 37);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    /* font-size: 15px;  */
+    padding: 11px 41px 13px 45px;
+    margin: 53px;
+    margin-top: 90px;
+}
+
+/* Main 3 CSS Starts from here */
+
+.main3 {
+
+    background-image: url(study3.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1365px;
+
+}
+
+/* 
+ #box8
+ {
+
+    height: 500px;
+    width: 473px;
+    border: 2px solid white;
+    border-radius: 10px;
+padding: 0px;
+background-color: white;
+margin-top: -336px;
+margin-left: 50px;
+border-radius: 20px;
+position: absolute;
+right: 111px;
+
+}
+
+.box67
+{
+    height: 250px;
+    width: 500px;
+  opacity: 0.6;
+  border: 3px;
+background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.doublebox
+{
+
+
+padding: 100px;
+} */
+
+.box67 {
+    height: 100%;
+    width: 50%;
+    /* border: 4px solid red; */
+    float: left;
+
+}
+
+.box6 {
+    height: 250px;
+    width: 530px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: cursive;
+    margin-top: 120px;
+    margin-left: 100px;
+    color: white;
+    padding: 40px;
+}
+
+.box7 {
+    height: 250px;
+    width: 530px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: cursive;
+    color: white;
+    padding: 40px;
+
+}
+
+.box8 {
+    height: 523px;
+    width: 473px;
+    /* border: 2px solid white; */
+    /* border-radius: 10px; */
+    background-color: white;
+    margin-top: 122px;
+    margin-left: 40px;
+    border-radius: 20px;
+    float: left;
+    font-family: cursive;
+
+}
+
+.boxcontent67 {
+    margin-top: 20px;
+}
+
+.boxbuttton67 {
+    background-color: rgb(146, 8, 8);
+    color: white;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    margin-top: 7px;
+    border: none;
+}
+
+span1 {
+    color: rgb(62, 212, 212);
+}
+
+
+.main4 {
+    height: 650px;
+    width: 1365px;
+    background-color: #7a7a52;
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+
+
+
+}
+
+.sliderphotos {
+    display: grid;
+    height: 300px;
+    width: 1000px;
+    /* background-color: blue; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 25px;
+    margin: 50px auto auto 180px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.sliderphotos .box9-12 {
+    background-color: white;
+
+}
+
+
+
+#box9 {
+    background-image: url(1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+
+
+}
+
+#box10 {
+    background-image: url(2.png);
+    background-size: 130%;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+
+    background-repeat: no-repeat;
+}
+
+#box11 {
+    background-image: url(3.png);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-size: 113%;
+    background-repeat: no-repeat;
+}
+
+#box12 {
+    background-image: url(4.png);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main5 {
+    height: 650px;
+    width: 1365px;
+    background: rgba(0, 0, 0, 0.7) url("study6.jpg");
+    /* background-image: url(study6.jpg); */
+    background-blend-mode: darken;
+    /* background: rgba(0, 0, 0, 0.7); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.main5left {
+
+    /* border: 1px solid red; */
+    height: 800px;
+    width: 50%;
+
+}
+
+.main5leftheading {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* margin: 80px auto auto 100px; */
+    padding: 76px;
+
+}
+
+
+.flexbox1 {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.box13 {
+    height: 290px;
+    width: 230px;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.box13a {
+    height: 130px;
+    width: 230px;
+    /* border: 2px solid white; */
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.box13a:hover {
+    height: 110px;
+    width: 210px;
+
+
+
+}
+
+
+.box14 {
+    height: 290px;
+    width: 230px;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.box14a {
+    height: 130px;
+    width: 230px;
+    /* border: 2px solid white; */
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+
+}
+
+
+
+
+
+.main6 {
+    height: 800px;
+    width: 1365px;
+    background-color: #2c2c2c;
+    padding-top: 130px;
+    padding-left: 120px;
+
+}
+
+.main6left {
+
+    height: 400px;
+    width: 730px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+  
+  
+
+    /* z-index: 2; */
+    /* display:grid;
+ grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+column-gap: 25px;
+margin:200px 0px 0px 300px; */
+
+}
+
+input 
+
+{
+    margin-top: 40px;
+    margin-left: -65px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: 2px solid red;
+    width: 190px;
+    height: 35px;
+   margin: 16px;
+   margin-top: 30px;
+   background-color: rgb(216, 216, 216);
+   border: none;
+   font-family: cursive;
+font-size: 10px;
+}
+textarea
+{
+    width: 650px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: cursive;
+font-size: 10px;
+   
+}
+
+
+
+/* input[text="type"]
+
+{
+
+    margin-top: 40px;
+    margin-left: -65px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+    /* background-color: rgb(216, 216, 216); 
+    background-color: 2px solid red;
+    width: 190px;
+    height: 35px;
+} */
+
+
+.main6right{
+
+    height: 450px;
+    width: 230px;
+    /* border: 2px solid white; */
+    background-color: rgb(159, 44, 47);
+    border-radius: 20px;
+    position: absolute;
+    right: 210px;
+    top: 3980px;
+    
+}
+
+
+.last1{
+    color:white;
+    width: 130px;
+    margin-left: 30px;
+}
+
+
+.last{
+    color:white;
+    width: 180px;
+}
+
+.lastcontent
+{
+    color: white;
+    font-family: cursive;
+    margin-left: 30px;
+    margin-top: 25px;
+} 
+
+.copyright
+{
+    color: white;
+    text-align: center  ;
+}
